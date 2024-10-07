@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar/Navbar";
-import Hero from "../components/Hero/Hero";
-import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
-import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
-import Quotes from "../components/Quotes/Quotes";
-import FooterEngage from "../components/FooterEngage/FooterEngage";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar.tsx";
+import Hero from "../components/Hero/Hero.tsx";
+import ImageCarousel from "../components/ImageCarousel/ImageCarousel.tsx";
+import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs.tsx";
+import Quotes from "../components/Quotes/Quotes.tsx";
+import FooterEngage from "../components/FooterEngage/FooterEngage.tsx";
+import Footer from "../components/Footer/Footer.tsx";
 
 /*
 
