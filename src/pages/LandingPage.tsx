@@ -7,12 +7,10 @@ import FooterEngage from "../components/FooterEngage/FooterEngage.tsx";
 import Footer from "../components/Footer/Footer.tsx";
 
 /*
-
     That FooterEngage used to be inside the footer but I had to remove
     because I could not use the proper CSS for the slight gradient in 
     the whole footer and I could not do it to a single section because
     of the container.
-f
 */
 
 const LandingPage = () => {
