@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar/Navbar";
-import Hero from "../components/Hero/Hero";
-import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
-import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
-import Quotes from "../components/Quotes/Quotes.tsx";
-import FooterEngage from "../components/FooterEngage/FooterEngage";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../components/navbar/Navbar";
+import Hero from "../components/hero/Hero";
+import ImageCarousel from "../components/image-carousel/ImageCarousel";
+import WhyChooseUs from "../components/why-choose-us/WhyChooseUs";
+import Quotes from "../components/quotes/Quotes";
+import FooterEngage from "../components/footer-engage/FooterEngage";
+import Footer from "../components/footer/Footer";
 
 const LandingPage = () => {
   return (
