@@ -1,0 +1,40 @@
+@import "typography";
+@import "colors";
+@import "boilerplate";
+@import "animations";
+@import "mixins";
+
+.container {
+  // max-width: 1300px;
+  width: min(90%, 1300px);
+  margin: 0 auto;
+}
+
+a {
+  color: $text-primary;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  @include text-highlight;
+}
+
+.arrow-btns {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.arrow-btns button {
+  width: 48px;
+  height: 48px;
+  color: $accent-color;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    @include scale-up;
+  }
+}

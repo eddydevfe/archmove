@@ -1,0 +1,68 @@
+@import "../../styles/styles.scss";
+
+.footer-engage {
+  background-color: $background-secondary;
+  background: linear-gradient(180deg, #1c1c1c 0%, #151515 100%);
+}
+
+.footer-cta {
+  display: flex;
+  padding: 5rem 0;
+}
+
+.footer-cta > * {
+  flex: 1;
+}
+
+// img container
+.footer-cta > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
+.footer-cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  p {
+    font-family: $font-primary;
+    max-width: 500px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1;
+    font-size: clamp(2rem, 2.2vw + 2rem, 4rem);
+  }
+
+  span {
+    color: $accent-color;
+  }
+
+  button {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer-cta {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .footer-cta > div:first-of-type {
+    padding: 2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

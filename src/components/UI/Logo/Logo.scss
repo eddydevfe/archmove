@@ -1,0 +1,23 @@
+@import "../../../styles/styles.scss";
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: $accent-color;
+  cursor: default;
+  width: 60px;
+  user-select: none;
+}
+
+.logo span:first-of-type {
+  text-align: left;
+  margin-bottom: -10px;
+}
+
+.logo span:last-of-type {
+  text-align: right;
+  margin-top: -10px;
+}

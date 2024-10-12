@@ -1,0 +1,4 @@
+@mixin scale-up($scale: 1.03, $duration: 0.2s) {
+  transform: scale($scale);
+  transition: transform $duration ease-in-out;
+}

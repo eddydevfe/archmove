@@ -1,0 +1,77 @@
+@import "../../styles/styles.scss";
+
+/* Main container styles */
+.why-choose-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  gap: 64px;
+  min-height: 890px;
+}
+
+.why-choose-us > div {
+  display: flex;
+  width: 100%;
+}
+
+.why-choose-us > div > img {
+  width: min(600px, 100%);
+  height: auto;
+}
+
+.key-points {
+  margin: 0 auto;
+  display: flex;
+  gap: 2.3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.key-points > * {
+  align-items: center;
+}
+
+.key-points h3 {
+  font-family: $font-primary;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.point {
+  gap: 2.5rem;
+  letter-spacing: 1px;
+
+  p {
+    color: darken($text-primary, 10);
+  }
+}
+
+.point,
+.point > div {
+  display: flex;
+  width: 100%;
+  max-width: 420px;
+}
+
+.point img {
+  align-self: flex-start;
+}
+
+.point > div {
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+@media (max-width: 1175px) {
+  .why-choose-us > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .key-points h3 {
+    text-align: center;
+  }
+}

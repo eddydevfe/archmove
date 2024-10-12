@@ -1,0 +1,25 @@
+@import "../../../styles/styles.scss";
+
+.button-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 24px;
+  cursor: pointer;
+
+  color: $text-primary;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-wrap: nowrap;
+
+  min-width: 102px;
+  max-width: min-content;
+  // height: 48px;
+
+  background: $accent-color;
+  border-radius: 4px;
+
+  &:hover {
+    @include scale-up;
+  }
+}
